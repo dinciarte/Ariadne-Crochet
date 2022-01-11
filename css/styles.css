@@ -165,9 +165,9 @@ h1{
 
 }
 
-.img__clientes{
+/* .img__clientes{
     max-width: 100%;
-}
+} */
 
 
 .clientes__h2{
@@ -268,7 +268,7 @@ h1{
 /* CLASSES SECTION TUTO */
 
 .vid__tuto{
-    max-width: 100%;
+    max-width: 10%;
 }
 
 .tuto__h3{
