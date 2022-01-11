@@ -1,0 +1,7 @@
+.vscode
+gitignore
+node_modules/
+
+git remote add origin https://github.com/dinciarte/Ariadne_BS.git
+git branch -M main
+git push -u origin main
