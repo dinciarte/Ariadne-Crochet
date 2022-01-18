@@ -1,0 +1,33 @@
+{
+  "name": "ariadne_bs",
+  "version": "1.0.0",
+  "description": "Inicio de prueba en SASS para proyecto de Curso de Desarrollo web para Coderhouse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss scss/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dinciarte/Ariadne_BS.git"
+  },
+  "keywords": [
+    "Primer",
+    "Projecto",
+    "Estudiante",
+    "Desarrollo",
+    "Web"
+  ],
+  "author": "Diveana Inciarte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dinciarte/Ariadne_BS/issues"
+  },
+  "homepage": "https://github.com/dinciarte/Ariadne_BS#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}
