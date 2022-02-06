@@ -1,0 +1,36 @@
+
+@import "./vars";
+
+.card{
+    border-radius: 10px;
+    min-height: 200px;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    background-color: $color_primario;
+    color: $color_terciario;
+
+}
+
+.textos {
+    display: grid;
+    grid-template-rows: 3fr 1fr 2fr ;
+
+}
+
+
+.clientes__h2{
+    color: $color_terciario;
+    font-size: 2rem;
+    font-family: gotham-italic;
+    display: flex;
+    align-self: center;
+
+
+}
+
+.client__parragraph {
+    display: flex;
+    align-self: baseline;
+    font-family: gotham-italic;
+}

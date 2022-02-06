@@ -1,0 +1,24 @@
+@import "./vars";
+
+.hero {
+    height: 80vh;
+}
+
+
+.main__h1 {
+    color: $color_primario;
+    font-style: normal;
+    font-size: 6rem;
+    font-family: gisrida;
+}
+
+.main__h2 {
+    color: $color_primario;
+    font-size: 2rem;
+    font-family: gotham-italic;
+}
+
+
+.text__deco{
+    text-decoration: none;
+}

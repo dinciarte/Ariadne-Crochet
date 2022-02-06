@@ -1,0 +1,25 @@
+@import "./vars";
+
+.section__height {
+    height: 60vh;
+    border-radius: 5px;
+    background-color: $color_secundario;
+    margin-left: -11px;
+    margin-right: -0px;    
+}
+
+.video {
+    max-width: 100%;
+}
+
+.main__h22 {
+    color: $color_primario;
+    font-style: normal;
+    font-size: 2.5rem;
+    font-family: gisrida;
+}
+
+.main__parragraph {
+    font-size: 1.5rem;
+    font-family: gotham-italic;    
+}

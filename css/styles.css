@@ -1,20 +1,11 @@
 *{
-    margin: 0;
-    padding: 0;
-}
-
-h1{
-    color: tomato;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
 }
 
 .img__box {
     max-width: 300px;
-}
-
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
 }
 
 /* fonts */
@@ -100,14 +91,10 @@ h1{
 }
 
 .main__h2 {
-    /* display: flex;
-    justify-self: left; */
+
     color: #252326;
     font-size: 2rem;
     font-family: gotham-italic;
-    /* width: 50vh;
-    height: 5vh; */
-
 }
 
 .main__h22 {
@@ -309,6 +296,9 @@ h1{
     font-family: gotham-italic;
 }
 
+.bg__bg{
+    background-color: #252326;
+}
 
 
 /* FIN CLASSES SECTION REGALA*/
@@ -397,7 +387,7 @@ h1{
     }
 }
 
-@media screen and (max-width: 320) {
+@media screen and (max-width: 320px) {
     .map__size{
         max-width: 50%;
     }
