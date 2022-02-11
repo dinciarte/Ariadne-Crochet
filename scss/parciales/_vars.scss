@@ -1,6 +1,23 @@
+//colores
+
 $color_primario: #252326;
 $color_secundario: darkgrey;
 $color_terciario: white;
 
+//tamaño de fuentes
+
+$h1Desktop: 6rem;
+$h1Tablet: 3rem;
+$h1Mobile: 1.5rem;
+
+$parrafoDesktop: 1.5rem;
+$parrafoTablet: 1.5rem;
+$parrafoMobile: 1.5rem;
+
+//mixin para media queries
+
+$mobile-width: 320px;
+$tablet-width: 768px;
+$desktop-width: 1080px;
 
 
