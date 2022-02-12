@@ -22,7 +22,7 @@ a {
 }
 
 /* fin de fonts*/
-.hero {
+.main {
   height: 80vh;
 }
 
@@ -57,9 +57,11 @@ a {
 }
 
 .main__h22 {
+  margin: 3.5%;
+  text-align: center;
   color: #252326;
   font-style: normal;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   font-family: gisrida;
 }
 
@@ -69,31 +71,32 @@ a {
 }
 
 .card {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+}
+
+.textos {
+  text-align: center;
   border-radius: 10px;
-  min-height: 200px;
   padding: 20px;
+  margin: 10px;
   position: relative;
   overflow: hidden;
   background-color: #252326;
   color: white;
 }
 
-.textos {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-rows: 3fr 1fr 2fr;
-      grid-template-rows: 3fr 1fr 2fr;
-}
-
 .clientes__h2 {
-  color: white;
-  font-size: 2rem;
-  font-family: gotham-italic;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-item-align: center;
       align-self: center;
+  color: white;
+  font-size: 2rem;
+  font-family: gotham-italic;
 }
 
 .client__parragraph {
