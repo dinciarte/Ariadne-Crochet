@@ -1,39 +1,38 @@
 
 @import "./vars";
 
+.clientes {
+    max-width: 100%;
 
-.card {
-    display: grid;
-    grid-template-rows: 1fr ;
-    
+    &__carta {
+        display: grid;
+        grid-template-rows: 1fr ;    
+    }
 
+    &__textos {
+        text-align: center;
+        border-radius: 10px;
+        padding: 20px;
+        margin: 10px;
+        position: relative;
+        overflow: hidden;
+        background-color: $color_primario;
+        color: $color_terciario;
+    }
+
+    &__h2 {
+        display: flex;
+        align-self: center;
+        color: $color_terciario;
+        font-size: 2rem;
+        font-family: gotham-italic;
+    }
+
+    &__p {
+        display: flex;
+        align-self: baseline;
+        font-family: gotham-italic;
+    }
 }
 
-.textos{
-    text-align: center;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 10px;
-    position: relative;
-    overflow: hidden;
-    background-color: $color_primario;
-    color: $color_terciario;
-
-}
-
-.clientes__h2{
-    display: flex;
-    align-self: center;
-    color: $color_terciario;
-    font-size: 2rem;
-    font-family: gotham-italic;
-
-
-}
-
-.client__parragraph {
-    display: flex;
-    align-self: baseline;
-    font-family: gotham-italic;
-}
 

@@ -7,7 +7,11 @@
 
 a {
   text-decoration: none;
-  color: #252326;
+}
+
+a:hover, a:active {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
 }
 
 /*fin de reset*/
@@ -39,12 +43,20 @@ a {
   font-family: gotham-italic;
 }
 
-.text__deco {
+.main__deco {
   text-decoration: none;
 }
 
+.main__link:link, .main__link:visited {
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
 /*fin de hero*/
-.section__height {
+.section {
   height: 60vh;
   border-radius: 5px;
   background-color: darkgrey;
@@ -52,11 +64,11 @@ a {
   margin-right: -0px;
 }
 
-.video {
+.section__video {
   max-width: 100%;
 }
 
-.main__h22 {
+.section__h2 {
   margin: 3.5%;
   text-align: center;
   color: #252326;
@@ -65,19 +77,23 @@ a {
   font-family: gisrida;
 }
 
-.main__parragraph {
+.section__p {
   font-size: 1.5rem;
   font-family: gotham-italic;
 }
 
-.card {
+.clientes {
+  max-width: 100%;
+}
+
+.clientes__carta {
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: 1fr;
       grid-template-rows: 1fr;
 }
 
-.textos {
+.clientes__textos {
   text-align: center;
   border-radius: 10px;
   padding: 20px;
@@ -99,7 +115,31 @@ a {
   font-family: gotham-italic;
 }
 
-.client__parragraph {
+.clientes__p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: baseline;
+      align-self: baseline;
+  font-family: gotham-italic;
+}
+
+.tutorial {
+  max-width: 100%;
+}
+
+.tutorial__h3 {
+  color: white;
+  font-size: 2rem;
+  font-family: gotham-italic;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.tutorial__p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

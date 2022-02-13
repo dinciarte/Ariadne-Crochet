@@ -2,23 +2,31 @@
 
 .main {
     height: 80vh;
-}
 
+    &__h1 {color: $color_primario;
+        font-style: normal;
+        font-size: 6rem;
+        font-family: gisrida;
+    }
 
-.main__h1 {
-    color: $color_primario;
-    font-style: normal;
-    font-size: 6rem;
-    font-family: gisrida;
-}
+    &__h2 {
+        color: $color_primario;
+        font-size: 2.5rem;
+        font-family: gotham-italic;
+    }
 
-.main__h2 {
-    color: $color_primario;
-    font-size: 2.5rem;
-    font-family: gotham-italic;
-}
+    &__deco {
+        text-decoration: none;
+    }
 
-
-.text__deco{
-    text-decoration: none;
+    &__link {
+        &:link,
+        &:visited {
+            text-decoration: none;
+            text-transform: uppercase;
+            display: inline-block;
+            transition: all .2s;
+        }
+        
+    }
 }
