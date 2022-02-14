@@ -1,8 +1,7 @@
-vscode/
+.vscode/
 .gitignore/
-node_modules/
-package-lock.json/
-package.json/
+.package-lock.json/
+.package.json/
 
 
 git remote add origin https://github.com/dinciarte/Ariadne-Crochet.git
