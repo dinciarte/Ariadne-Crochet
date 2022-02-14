@@ -8,10 +8,6 @@
         display: grid;
         grid-template-rows: 1fr ;
         
-        &:hover ,
-        &:active {
-            transform: scale(1.3);
-         }
     }
 
     &__textos {

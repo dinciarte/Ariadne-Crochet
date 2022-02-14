@@ -1,4 +1,5 @@
 @import "./vars";
+@import "./media-queries";
 
 *{
     margin: 0;
@@ -8,7 +9,7 @@
 
 a{
     text-decoration: none;
-    color: $color_secundario;
+    color: black;
 
     &:hover,
         &:active {
@@ -25,11 +26,18 @@ a{
 
 /*BS modifications*/
 
-.btn {
-    color: black;
-}
+.btn{
 
+    text-decoration: none;
+    color: black;
+
+    &:hover,
+        &:active {
+            transform: scale(1.3);
+            color: $color_terciario;
+         }
+        
+}
 .container-fluid {
     padding: 10px;
 }
-

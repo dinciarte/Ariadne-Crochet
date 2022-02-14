@@ -7,7 +7,7 @@
 
 a {
   text-decoration: none;
-  color: darkgrey;
+  color: black;
 }
 
 a:hover, a:active {
@@ -22,7 +22,14 @@ a:hover, a:active {
 
 /*BS modifications*/
 .btn {
+  text-decoration: none;
   color: black;
+}
+
+.btn:hover, .btn:active {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  color: white;
 }
 
 .container-fluid {
@@ -153,11 +160,6 @@ a:hover, a:active {
       grid-template-rows: 1fr;
 }
 
-.clientes__carta:hover, .clientes__carta:active {
-  -webkit-transform: scale(1.3);
-          transform: scale(1.3);
-}
-
 .clientes__textos {
   text-align: center;
   border-radius: 10px;
@@ -253,6 +255,7 @@ a:hover, a:active {
 
 .tutorial__video {
   max-width: 100%;
+  padding: 0.65rem;
 }
 
 @media screen and (max-width: 768px) {
