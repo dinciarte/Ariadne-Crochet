@@ -1,17 +1,20 @@
 @import "./vars";
+@import "./media-queries";
 
 .main {
     height: 80vh;
 
-    &__h1 {color: $color_primario;
+    &__h1 {
+        color: $color_primario;
         font-style: normal;
-        font-size: 6rem;
-        font-family: gisrida;
+        font-size: $h1Desktop;
+        font-family: gisrida;        
+        
     }
 
     &__h2 {
         color: $color_primario;
-        font-size: 2.5rem;
+        font-size: $h2Desktop;
         font-family: gotham-italic;
     }
 
@@ -29,4 +32,25 @@
         }
         
     }
+    
+    @include tablet {
+        &__h1 {
+            font-size: $h1Tablet;
+        }
+
+        &__h2 {
+            font-size: $h2Tablet;
+        }  
+    }
+
+    @include mobile {
+        &__h1 {
+            font-size: $h1Mobile;
+        }
+
+        &__h2 {
+            font-size: $h2Mobile;
+        }        
+    }
 }
+

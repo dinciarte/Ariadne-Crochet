@@ -6,7 +6,12 @@
 
     &__carta {
         display: grid;
-        grid-template-rows: 1fr ;    
+        grid-template-rows: 1fr ;
+        
+        &:hover ,
+        &:active {
+            transform: scale(1.3);
+         }
     }
 
     &__textos {
@@ -33,6 +38,44 @@
         align-self: baseline;
         font-family: gotham-italic;
     }
+
+    @include tablet {
+        &__h1 {
+            font-size: $h1Tablet;
+        }
+
+        &__p {
+            font-size: $parrafoMobile;
+        }  
+    }
+
+    @include mobile {
+        &__h1 {
+            font-size: $h1Mobile;
+        }
+
+        &__p {
+            font-size: $parrafoMobile;
+        }      
+    }
+
 }
+
+.conociendo{
+    height: 90vh;
+    border-radius: 5px;
+    background-color: $color_secundario;
+    margin-left: -11px;
+    margin-right: -0px;  
+
+    @include tablet {
+        height: 70vh;
+    }
+
+    @include mobile {
+        height: 75vh;
+    }
+}
+
 
 
